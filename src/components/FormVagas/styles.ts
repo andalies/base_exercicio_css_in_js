@@ -16,7 +16,7 @@ export const SearchButton = styled.button`
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
-  color: var(--cor-secundaria);
+  color: ${Colors.corSecundaria};
   margin-left: 8px;
   cursor: pointer;
 `

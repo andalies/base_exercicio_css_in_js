@@ -15,14 +15,14 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    <form onSubmit={aoEnviarForm}>
-      <input
+    <FormSearch onSubmit={aoEnviarForm}>
+      <InputField
         placeholder="Front-end, fullstack, node, design"
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
-      <button type="submit">Pesquisar</button>
-    </form>
+      <SearchButton type="submit">Pesquisar</SearchButton>
+    </FormSearch>
   )
 }
 export default FormVagas
